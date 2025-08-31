@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/quiz-game"]
+
+[project]
+name = "quiz-game"
+version = "0.0.1"
+authors = [
+  { name="Alexander Lindholm", email="lindholmalex.la@gmail.com" },
+]
+description = "create a test in order to practice for exams, test your knowledge, and boost your memory!"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Alex0424/quiz"
+Issues = "https://github.com/Alex0424/quiz"

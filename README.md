@@ -11,13 +11,13 @@ To practice for exams, test your knowledge, and boost your memory!
 1. **Import** this module into your script:
 
 ```
-from quiz import quiz_game
+from quiz import quiz-game
 ```
 
 2. **Add your questions and answers** in a dictionary:
 
 ```
-quiz_game(
+quiz-game(
     {
         "question 1": "answer to question 1",
         "question 2": "answer to question 2",
