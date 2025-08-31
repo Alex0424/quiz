@@ -1,4 +1,4 @@
-def quiz-game(answers: dict) -> str:
+def quiz_start(answers: dict) -> str:
 
     key_list = list(answers.keys())
     value_list = list(answers.values())
@@ -18,4 +18,4 @@ def quiz-game(answers: dict) -> str:
 
 if __name__ == "__main__":
     answers = {"Step 1": "Import", "Step 2": "Run"}
-    quiz-game(answers)
+    quiz_start(answers)
