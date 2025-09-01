@@ -7,7 +7,7 @@ packages = ["src/quiz_game"]
 
 [project]
 name = "quiz_game"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Alexander Lindholm", email="lindholmalex.la@gmail.com" },
 ]

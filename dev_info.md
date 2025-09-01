@@ -11,5 +11,5 @@ python3 -m build
 3. 
 
 ```
-python3 -m twine upload dist/quiz_game-0.0.2-py3-none-any.whl
+python3 -m twine upload dist/quiz_game-0.0.3-py3-none-any.whl
 ```
